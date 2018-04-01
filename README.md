@@ -9,7 +9,7 @@
 
 使用了Spring Security 以及 Spring Security OAuth 实现基于JWT的单点登录
 
-设计了实时消息服务，使用消息队列kafka实现，用于避免数据库操作中的分布式事务 
+设计了实时消息服务，使用消息队列kafka实现，用于异步构建任务
 
 使用ElasticSearch实现站内搜索引擎
 
